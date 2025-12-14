@@ -1,0 +1,47 @@
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+**/node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+
+# Environment
+.env
+.env.*.local
+
+# Build outputs
+dist/
+build/
+coverage/
+*.map
+
+# Circom / snarkjs / ZK artifacts
+*_js/
+*.wasm
+*.wtns
+witness*
+witness.json
+*.r1cs
+*.zkey
+*.ptau
+prover.key
+verifier.key
+
+# Logs and misc
+*.log
+thumbs.db
+*.pem
+
